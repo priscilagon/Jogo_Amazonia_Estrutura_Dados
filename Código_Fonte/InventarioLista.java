@@ -11,7 +11,7 @@ public class InventarioLista {
         } else {
             Node atual = cabeca;
             while (atual.proximo != null) {
-                atual = atual.proximo;
+                atual = atual.proximo; // Lista 
             }
             atual.proximo = novoNode;
         }
